@@ -13,8 +13,6 @@
 		774B12FF1F629A3A00A5463F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774B12FD1F629A3A00A5463F /* Main.storyboard */; };
 		774B13011F629A3A00A5463F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 774B13001F629A3A00A5463F /* Assets.xcassets */; };
 		774B13041F629A3A00A5463F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 774B13021F629A3A00A5463F /* LaunchScreen.storyboard */; };
-		774B130F1F629A3A00A5463F /* LiLCornerRadiusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B130E1F629A3A00A5463F /* LiLCornerRadiusTests.m */; };
-		774B131A1F629A3A00A5463F /* LiLCornerRadiusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B13191F629A3A00A5463F /* LiLCornerRadiusUITests.m */; };
 		774B13291F62A32C00A5463F /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = 774B13281F62A32C00A5463F /* UIImageView+CornerRadius.m */; };
 		774B13331F63D95800A5463F /* mac_dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 774B13321F63D95800A5463F /* mac_dog.png */; };
 /* End PBXBuildFile section */
@@ -48,11 +46,7 @@
 		774B13031F629A3A00A5463F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		774B13051F629A3A00A5463F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		774B130A1F629A3A00A5463F /* LiLCornerRadiusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiLCornerRadiusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		774B130E1F629A3A00A5463F /* LiLCornerRadiusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiLCornerRadiusTests.m; sourceTree = "<group>"; };
-		774B13101F629A3A00A5463F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		774B13151F629A3A00A5463F /* LiLCornerRadiusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiLCornerRadiusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		774B13191F629A3A00A5463F /* LiLCornerRadiusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiLCornerRadiusUITests.m; sourceTree = "<group>"; };
-		774B131B1F629A3A00A5463F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		774B13271F62A32C00A5463F /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
 		774B13281F62A32C00A5463F /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		774B13321F63D95800A5463F /* mac_dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mac_dog.png; sourceTree = "<group>"; };
@@ -87,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				774B12F31F629A3A00A5463F /* LiLCornerRadius */,
-				774B130D1F629A3A00A5463F /* LiLCornerRadiusTests */,
-				774B13181F629A3A00A5463F /* LiLCornerRadiusUITests */,
 				774B12F21F629A3A00A5463F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,24 +120,6 @@
 				774B12F51F629A3A00A5463F /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		774B130D1F629A3A00A5463F /* LiLCornerRadiusTests */ = {
-			isa = PBXGroup;
-			children = (
-				774B130E1F629A3A00A5463F /* LiLCornerRadiusTests.m */,
-				774B13101F629A3A00A5463F /* Info.plist */,
-			);
-			path = LiLCornerRadiusTests;
-			sourceTree = "<group>";
-		};
-		774B13181F629A3A00A5463F /* LiLCornerRadiusUITests */ = {
-			isa = PBXGroup;
-			children = (
-				774B13191F629A3A00A5463F /* LiLCornerRadiusUITests.m */,
-				774B131B1F629A3A00A5463F /* Info.plist */,
-			);
-			path = LiLCornerRadiusUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				774B130F1F629A3A00A5463F /* LiLCornerRadiusTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				774B131A1F629A3A00A5463F /* LiLCornerRadiusUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +496,7 @@
 				774B13201F629A3A00A5463F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		774B13211F629A3A00A5463F /* Build configuration list for PBXNativeTarget "LiLCornerRadiusTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +505,7 @@
 				774B13231F629A3A00A5463F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		774B13241F629A3A00A5463F /* Build configuration list for PBXNativeTarget "LiLCornerRadiusUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +514,7 @@
 				774B13261F629A3A00A5463F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
