@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LiLCornerRadius (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LiLCornerRadius (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LiLCornerRadius:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LiLCornerRadius: 2b8191e014cc3aaedc28f2a1504728c0c1077f75
+
+PODFILE CHECKSUM: 0d650f4e2e521e601e1c0fc73de4d0d4feb5b4bd
+
+COCOAPODS: 1.5.0

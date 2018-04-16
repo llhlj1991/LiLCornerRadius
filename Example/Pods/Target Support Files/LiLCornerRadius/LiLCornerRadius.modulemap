@@ -1,0 +1,6 @@
+framework module LiLCornerRadius {
+  umbrella header "LiLCornerRadius-umbrella.h"
+
+  export *
+  module * { export * }
+}
