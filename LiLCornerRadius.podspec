@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #
 # Be sure to run `pod lib lint LiLCornerRadius.podspec' to ensure this is a
 # valid spec before submitting.
@@ -39,4 +40,23 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+=======
+Pod::Spec.new do |s|
+  s.name         = "LiLCornerRadius"
+  s.version      = "0.0.1"
+  s.summary      = "just soso"
+s.description      = <<-DESC
+Testing Private Podspec.
+
+* Markdown format.
+* Don't worry about the indent, we strip it!
+DESC
+  s.homepage     = "https://github.com/llhlj1991/LiLCornerRadius"
+  s.license      = "MIT"
+  s.author             = { "lilei" => "lileiabt@163.com" }
+  s.platform     = :ios, "8.0"
+  s.source       = { :git => "https://github.com/llhlj1991/LiLCornerRadius.git", :tag => "#{s.version}" }
+  s.source_files  = "LiLCornerRadius/**/*.{h,m}"
+  s.requires_arc = true
+>>>>>>> 39336fef088eb6758550e1cb253d334f31a828ec
 end

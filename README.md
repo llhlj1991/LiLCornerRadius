@@ -1,4 +1,5 @@
 # LiLCornerRadius
+<<<<<<< HEAD
 
 [![CI Status](http://img.shields.io/travis/llhlj1991/LiLCornerRadius.svg?style=flat)](https://travis-ci.org/llhlj1991/LiLCornerRadius)
 [![Version](https://img.shields.io/cocoapods/v/LiLCornerRadius.svg?style=flat)](http://cocoapods.org/pods/LiLCornerRadius)
@@ -27,3 +28,6 @@ llhlj1991, 1608968113@qq.com
 ## License
 
 LiLCornerRadius is available under the MIT license. See the LICENSE file for more info.
+=======
+这是一个给图片切圆角，某一个圆角
+>>>>>>> 39336fef088eb6758550e1cb253d334f31a828ec
